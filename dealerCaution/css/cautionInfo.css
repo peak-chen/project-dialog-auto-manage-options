@@ -1,0 +1,52 @@
+.wrap {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 36px 0 0 0;
+    overflow: hidden;
+    height: 100%;
+}
+
+.top {
+    position: relative;
+    top: -36px;
+    height: 36px;
+}
+
+.main {
+    top: -36px;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+}
+
+a:active, a:hover {
+    outline: 0;
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover, a:focus ,a:visited{
+    color: #23527c;
+    text-decoration: underline;
+}
+
+a:focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+}
+
+.tool-bar {
+    background-color:#fff !important;
+}
+
+.search-wrap {
+    height: 28px!important;
+}
+
+
